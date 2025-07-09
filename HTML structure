@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Raunak's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="first">
+            <div class="leftside">Hi, My name is <span class="c">Raunak</span>
+                <div>And I am a</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightside"><img src="worker.png" alt="Professional"></div>
+        </section>
+        <hr>
+        <section class="sec2">
+            <h1>Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="or" src="hatmal.png" alt="html">
+                    <div class="vtext">
+                        HTML Developer (2025-Present)
+                    </div>
+                    <div class="vertical">
+                    <img class="or" src="sassas.png" alt="html">
+                    <div class="vtext">
+                        CSS Developer (2025-Present)
+                    </div>
+                    <div class="vertical">
+                    <img class="or" src="jass.png" alt="html">
+                    <div class="vtext">
+                        Java Script Developer (2025-Present)
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Video Editor', 'Graphic Designer', 'competitive coder', 'Web Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
