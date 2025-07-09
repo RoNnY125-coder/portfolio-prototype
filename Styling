@@ -1,0 +1,98 @@
+body {
+    background-color: #9BBEC8;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #164863;
+}
+
+.left {
+    font-size: 2rem;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    margin: 210px 0;
+}
+
+.leftside {
+    font-size: 5rem;
+    margin: 70px 0;
+}
+
+.rightside img {
+    width: 500px;
+    height: auto;
+
+}
+.c{
+   color: #164863;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 35px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: #9BBEC8;
+    font-size: 1.09rem;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#element{
+    color: #164863;
+}
+.sec2{
+    max-width: 155vh;
+    margin: auto;
+}
+main hr{
+    border: 0;
+    background-color: #164863;
+    height: 4px;
+    margin: 50px 90px;
+}
+.sec2 h1{
+    font-size: 2.5rem;
+}
+.sec2 .box{
+    background-color: #164863;
+    width: 80vh;
+    height: 4px;
+    margin: 56px 0;
+}
+.sec2 .vertical{
+    height: 25px;
+    width: 2px;
+    background-color: #164863;
+    display: flex;
+    margin: 0 100px;
+}
+.or{
+    position: relative;
+    top: -26px;
+    left: -11px;
+}
+.vtext{
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
